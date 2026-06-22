@@ -198,7 +198,7 @@ const HeroSection = () => {
             className="px-4 text-center"
           >
             <TrustBadge />
-            <h1 className="mt-3 text-2xl font-semibold text-white leading-tight text-[#FFFED4]">
+            <h1 className="mt-3 text-[26px] font-semibold leading-tight text-[#FFFED4]">
               From Nature's Roots to Everyday Wellness
             </h1>
             <p className="mt-2 text-sm text-white/80">
@@ -232,7 +232,7 @@ const HeroSection = () => {
             className="px-8 md:px-14"
           >
             <TrustBadge />
-            <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-semibold text-white leading-tight text-[#FFFED4]">
+            <h1 className="mt-4 text-3xl md:text-4xl font-semibold leading-tight text-[#FFFED4]">
               From Nature's Roots to Everyday Wellness
             </h1>
             <p className="mt-3 text-base sm:text-lg text-white/80 max-w-xl">
@@ -266,7 +266,7 @@ const HeroSection = () => {
             className="absolute bottom-10 left-16 max-w-5xl"
           >
             <TrustBadge />
-            <h1 className="mt-4 text-[46px] font-semibold text-white leading-tight text-[#FFFED4]">
+            <h1 className="mt-4 text-[46px] font-semibold leading-tight text-[#FFFED4]">
               From Nature's Roots to Everyday <br /> Wellness
             </h1>
             <p className="mt-6 text-[20px] text-white/80 max-w-xl">

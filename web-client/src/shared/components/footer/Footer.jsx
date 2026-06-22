@@ -44,7 +44,7 @@ const cols = [
     links: [
       "+91 79010 82907",
       "7alp.globalmark@gmail.com",
-      "Ramatalkies Reddy hospital road, Visakhapatnam",
+      "Madhapur, Hyderabad",
     ],
   },
   {

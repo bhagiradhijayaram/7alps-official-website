@@ -49,8 +49,12 @@ const OurFeaturedProducts = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="section-title text-[44px]">Our Featured Products</h2>
-          <p className="text-[22px]">Our Journey from Farm to Wellness</p>
+          <h2 className="section-title text-[24px] text-[36px] xl:text-[44px]">
+            Our Featured Products
+          </h2>
+          <p className="text-[16px] md:text-[20px] xl:text-[22px]">
+            Our Journey from Farm to Wellness
+          </p>
         </motion.div>
 
         <motion.div
