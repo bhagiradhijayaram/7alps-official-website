@@ -102,9 +102,10 @@ const Footer = () => {
                 7 ALP's
               </div>
             </div>
-            <p className="mt-5 text-background/60 max-w-sm leading-relaxed">
-              Professional packers & movers committed to safe, on-time and
-              affordable relocation — across the city and across the country.
+            <p className="mt-5 text-white/80 hover:text-white transition-colors max-w-sm leading-relaxed">
+              Premium herbal ingredients and wellness solutions sourced directly
+              from farmers and delivered to consumers, businesses, and global
+              partners.
             </p>
           </motion.div>
           {cols.map((c) => (
@@ -136,7 +137,7 @@ const Footer = () => {
                     <li key={l}>
                       <a
                         href="#"
-                        className="text-sm text-white/80 hover:text-white transition-colors flex items-start gap-3"
+                        className="text-[16px] text-white/80 hover:text-white transition-colors flex items-start gap-3"
                       >
                         {c.title === "Contact" && (
                           <>

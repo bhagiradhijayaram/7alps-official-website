@@ -51,7 +51,7 @@ const Contact = () => {
               <div className="bg-[#EFEFEF] h-10 w-10 flex flex-col justify-center items-center">
                 <FiPhone size={20} />
               </div>
-              <p className="text-[20px]">+91 8106801326</p>
+              <p className="text-[20px]">+91 79010 82907</p>
             </div>
             <div className="flex items-center gap-3">
               <div className="bg-[#EFEFEF] h-10 w-10 flex flex-col justify-center items-center">
