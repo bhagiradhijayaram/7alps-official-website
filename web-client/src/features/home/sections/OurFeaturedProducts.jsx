@@ -2,7 +2,6 @@ import { useState } from "react";
 import productsData from "../../products/data/productsData.json";
 import { CiHeart } from "react-icons/ci";
 import { GrCart } from "react-icons/gr";
-import { HiOutlineShoppingCart } from "react-icons/hi";
 import { GoArrowRight } from "react-icons/go";
 import { motion } from "framer-motion";
 
@@ -77,11 +76,11 @@ const OurFeaturedProducts = () => {
         </motion.div>
 
         <motion.div
+          key={activeTab}
           className="products-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6"
           variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.15 }}
+          animate="visible"
         >
           {filteredProducts.slice(0, 6).map((product) => (
             <motion.div
@@ -97,10 +96,19 @@ const OurFeaturedProducts = () => {
                 />
 
                 {/* Icons */}
-                <div className="absolute top-4 right-4 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <div
+                  className="
+    absolute top-4 right-4 flex flex-col gap-2
+    opacity-100
+    xl:opacity-0
+    xl:group-hover:opacity-100
+    transition-all duration-300
+  "
+                >
                   <button className="bg-white w-10 h-10 rounded-lg flex items-center justify-center shadow-md">
                     <GrCart size={18} />
                   </button>
+
                   <button className="bg-white w-10 h-10 rounded-lg flex items-center justify-center shadow-md">
                     <CiHeart size={22} />
                   </button>
