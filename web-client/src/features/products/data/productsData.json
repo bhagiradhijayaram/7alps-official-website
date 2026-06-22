@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "ProductName": "Organic Turmeric Powder",
+    "ProductDescription": "Hair growth, prevents premature greying, strengthens roots",
+    "ProductCategory": "Skin Care",
+    "ProductRating": 4.8,
+    "ProductImage": "https://res.cloudinary.com/dasvdkncm/image/upload/v1781964030/Rectangle_3463727_tn3bsh.png"
+  },
+  {
+    "id": 2,
+    "ProductName": "Aloe Vera Gel",
+    "ProductDescription": "Hair growth, prevents premature greying, strengthens roots",
+    "ProductCategory": "Hair Care",
+    "ProductRating": 4.6,
+    "ProductImage": "https://res.cloudinary.com/dasvdkncm/image/upload/v1781964030/Rectangle_3463727_1_ylems5.png"
+  },
+  {
+    "id": 3,
+    "ProductName": "Neem Powder",
+    "ProductDescription": "Hair growth, prevents premature greying, strengthens roots",
+    "ProductCategory": "Skin Care",
+    "ProductRating": 4.5,
+    "ProductImage": "https://res.cloudinary.com/dasvdkncm/image/upload/v1781964030/Rectangle_3463727_2_utnlai.png"
+  },
+  {
+    "id": 4,
+    "ProductName": "Rose Water",
+    "ProductDescription": "Hair growth, prevents premature greying, strengthens roots",
+    "ProductCategory": "Hair Care",
+    "ProductRating": 4.7,
+    "ProductImage": "https://res.cloudinary.com/dasvdkncm/image/upload/v1781964030/Rectangle_3463727_3_yqk6er.png"
+  },
+  {
+    "id": 5,
+    "ProductName": "Multani Mitti Powder",
+    "ProductDescription": "Hair growth, prevents premature greying, strengthens roots",
+    "ProductCategory": "Health & Wellness",
+    "ProductRating": 4.4,
+    "ProductImage": "https://res.cloudinary.com/dasvdkncm/image/upload/v1781964030/Rectangle_3463727_4_xmfzt6.png"
+  },
+  {
+    "id": 6,
+    "ProductName": "Hibiscus Powder",
+    "ProductDescription": "Hair growth, prevents premature greying, strengthens roots",
+    "ProductCategory": "Health & Wellness",
+    "ProductRating": 4.6,
+    "ProductImage": "https://res.cloudinary.com/dasvdkncm/image/upload/v1781964030/Rectangle_3463727_5_okwzie.png"
+  },
+  {
+    "id": 7,
+    "ProductName": "Ashwagandha Powder",
+    "ProductDescription": "Traditional herbal supplement known for supporting wellness and vitality.",
+    "ProductCategory": "Skin Care",
+    "ProductRating": 4.9,
+    "ProductImage": "https://res.cloudinary.com/dasvdkncm/image/upload/v1781964030/Rectangle_3463727_3_yqk6er.png"
+  },
+  {
+    "id": 8,
+    "ProductName": "Moringa Powder",
+    "ProductDescription": "Nutrient-rich moringa powder packed with vitamins and minerals.",
+    "ProductCategory": "Skin Care",
+    "ProductRating": 4.7,
+    "ProductImage": "https://res.cloudinary.com/dasvdkncm/image/upload/v1781964030/Rectangle_3463727_4_xmfzt6.png"
+  },
+  {
+    "id": 9,
+    "ProductName": "Sandalwood Powder",
+    "ProductDescription": "Premium sandalwood powder for skincare and natural face masks.",
+    "ProductCategory": "Skin Care",
+    "ProductRating": 4.5,
+    "ProductImage": "https://images.unsplash.com/photo-1515377905703-c4788e51af15"
+  },
+  {
+    "id": 10,
+    "ProductName": "Amla Powder",
+    "ProductDescription": "Natural amla powder for hair nourishment and overall wellness.",
+    "ProductCategory": "Skin Care",
+    "ProductRating": 4.8,
+    "ProductImage": "https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+  }
+]

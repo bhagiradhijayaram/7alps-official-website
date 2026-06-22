@@ -1,0 +1,28 @@
+import { Routes, Route } from "react-router-dom";
+import MainLayout from "../layouts/MainLayout";
+
+import HomePage from "../../features/home/pages/HomePage";
+import ProductsPage from "../../features/products/pages/ProductsPage";
+import ProcessPage from "../../features/process/pages/ProcessPage";
+import WhyChooseUsPage from "../../features/whyChooseUs/pages/WhyChooseUsPage";
+import GlobalTradePage from "../../features/globalTrade/pages/GlobalTradePage";
+import PartnershipsPage from "../../features/partnerships/pages/PartnershipsPage";
+import ContactPage from "../../features/contact/pages/ContactPage";
+
+const AppRoutes = () => {
+  return (
+    <Routes>
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/products" element={<ProductsPage />} />
+        <Route path="/our-process" element={<ProcessPage />} />
+        <Route path="/why-choose-us" element={<WhyChooseUsPage />} />
+        <Route path="/global-trade" element={<GlobalTradePage />} />
+        <Route path="/partnerships" element={<PartnershipsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Route>
+    </Routes>
+  );
+};
+
+export default AppRoutes;
